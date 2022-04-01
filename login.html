@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: linear-gradient(45deg, blue, purple);/*Degrade do Background*/
+      }
+      div {
+        background-color: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        top: 30%;
+        left: 40%;
+        padding: 80px; /*Distancia entre elementos e borda*/
+        border-radius: 15px; /*Arredondar as bordas*/
+        color: white;
+      }
+      input {
+        padding: 15px;
+        border: none;
+        outline: none;
+        font-size: 15px;
+      }
+      button {
+        background-color: rgb(74, 0, 248);
+        border: none;
+        padding: 15px;
+        width: 100%;
+        border-radius: 10px;
+        color: white;
+        font-size: 15px;
+        cursor: pointer; /*Muda o Cursor*/
+      }
+      button:hover {
+        background-color: rgb(85, 0, 255); /*Cor do botao ao colocar o cursor em cima*/
+      }
+    </style>
+  </head>
+  <body>
+    <div class="tela-login">
+      <h1>Login</h1>
+      <input type="text" placeholder="Nome" />   <!--Input que recebe o nome-->
+      <br /><br />  <!--Espaço entre Senha e Login-->
+      <input type="password" placeholder="Senha" /> <!--Input que recebe a senha-->
+      <br /><br />
+      <button>Enviar</button>    <!--Botão de Enviar-->
+    </div>
+  </body>
+</html>
